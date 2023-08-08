@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+nav {
+  z-index: 10000;
+}
+
+nav li {
+  margin-left: 15%;
+}
+
+.navbar-brand {
+  font-family: cursive;
+}
+
+#img_container img {
+  width: 100%;
+}
+
+.corner_image {
+  position: absolute;
+  top: 7em;
+  left: 0;
+  max-width: 10%;
+}
+
+.amenity_holder {
+  background-color: #FFF;
+}
+
+#amenities {
+  margin: 0px auto;
+}
+
+.amenity-headlines{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: .5em 0em;
+}
+  
+.amenity-descriptions {
+ font-family: 'Raleway', sans-serif;   
+  }
+ 
+
+/* Code at lines 32-33 was another possible solution for iPhone error, but one that didn't work for me.
+.carousel-inner>.item {
+          width: 100%;
+} */
+
+
+/* Code below can be used to center text for amenity descriptions, but I don't think it makes them actually look better.
+
+.amenity-descriptions {
+  margin: 0em 1em;
+} */
